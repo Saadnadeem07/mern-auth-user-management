@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.0"
+  },
+  "name": "auth-profile-system",
+  "version": "1.0.0",
+  "description": "A production-grade MERN authentication and authorization system with full RBAC (Role-Based Access Control). Built for multi-role applications like Admin, User, Manager, etc., with secure sessions, JWT flows, and profile management.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saadnadeem07/mern-auth-user-management.git"
+  },
+  "author": "Saad Nadeem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saadnadeem07/mern-auth-user-management/issues"
+  },
+  "homepage": "https://github.com/Saadnadeem07/mern-auth-user-management#readme"
+}
+
+
